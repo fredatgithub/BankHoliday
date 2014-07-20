@@ -12,6 +12,12 @@
       </dayOff>
     </staticDay>
     <calculatedDay>
+      <dayOff>
+        <number>3</number>
+        <weekDay>Thursday</weekDay>
+        <monthName>May</monthName>
+        <dayOffName>Ascension</dayOffName>
+      </dayOff>
     </calculatedDay>
   </country>
   <country name="USA">

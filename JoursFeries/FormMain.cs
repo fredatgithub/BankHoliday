@@ -18,6 +18,7 @@ namespace JoursFeries
     private TimeRange CurrentYearRange;
     private const string CountryListFileName = @"ListOfCountries.xml";
 
+
     private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
     {
       labelJourFerie.Text = dateTimePicker1.Value.ToLongDateString() + " est férié ou pas";
@@ -27,6 +28,7 @@ namespace JoursFeries
     {
       //read xml file
       //TODO
+
       return false;
     }
 

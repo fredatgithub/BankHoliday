@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Windows.Forms;
 using System.Xml;
-using System.Xml.Linq;
 using Itenso.TimePeriod;
 
 
@@ -25,6 +23,46 @@ namespace JoursFeries
       labelJourFerie.Text = dateTimePicker1.Value.ToLongDateString() + " est férié ou pas";
     }
 
+    private bool IsBankHoliday(DateTime oneDay, string country = "France")
+    {
+      //read xml file
+      //TODO
+      return false;
+    }
+
+    private int HowManyBankHoliday(ITimePeriod timePeriod, string country = "France")
+    {
+      //read xml file
+      //TODO
+      return 0;
+    }
+
+    private bool HasABankholidayIn(ITimePeriod timePeriod, string country = "France")
+    {
+      // search if one or many bank holidays are inside a time period
+      //TODO
+      return false;
+    }
+
+    private bool HasABankholidayIn(TimeSpan timePeriod, string country = "France")
+    {
+      // search if one or many bank holidays are inside a time period
+      //TODO
+      return false;
+    }
+
+    private int HowManyWorkingDays(TimeSpan timeSpan, string country = "France")
+    {
+      // TODO
+      return 0;
+    }
+
+    private int HowManyWorkingHours(TimeSpan periodTimeSpan, Time startWorkingHour, Time endWorkingTime, string country = "France")
+    {
+      // TODO
+      return 0;
+    }
+
     private void Form1_Load(object sender, EventArgs e)
     {
       CurrentYearRange = new TimeRange(new DateTime(DateTime.Now.Year, 1, 1), new DateTime(DateTime.Now.Year, 12, 31));
@@ -34,7 +72,10 @@ namespace JoursFeries
         comboBoxCountryList.Items.Add(countryName);
       }
 
-      comboBoxCountryList.SelectedIndex = 0;
+      if (comboBoxCountryList.Items.Count > 0)
+      {
+        comboBoxCountryList.SelectedIndex = 0;
+      }
 
     }
 
@@ -56,32 +97,20 @@ namespace JoursFeries
           sw.WriteLine(@"</countries>");
         }
       }
+
       List<string> result = new List<string>();
       XmlTextReader reader = new XmlTextReader(filename);
-      
+
       while (reader.Read())
       {
         if (reader.NodeType == XmlNodeType.Element && reader.Name == "country")
         {
           if (reader.HasAttributes)
           {
-            result.Add(reader.GetAttribute("name")); 
+            result.Add(reader.GetAttribute("name"));
           }
         }
       }
-
-      //var xml = XDocument.Load(filename);
-      //if (xml.Root != null)
-      //{
-      //  var query = from c in xml.Root.Descendants("countries")
-      //              where  c.Name == "country"
-      //              //let xElement = c.Element("country")
-      //              //where xElement != null
-      //              //select c.Value;
-      //              select c.Value;
-
-      //  result.AddRange(query);
-      //}
 
       return result.Count != 0 ? result : new List<string> { "France" };
     }

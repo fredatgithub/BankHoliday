@@ -36,7 +36,7 @@
       // 
       // dateTimePicker1
       // 
-      this.dateTimePicker1.Location = new System.Drawing.Point(53, 140);
+      this.dateTimePicker1.Location = new System.Drawing.Point(29, 59);
       this.dateTimePicker1.Name = "dateTimePicker1";
       this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
       this.dateTimePicker1.TabIndex = 0;
@@ -45,7 +45,7 @@
       // labelJourFerie
       // 
       this.labelJourFerie.AutoSize = true;
-      this.labelJourFerie.Location = new System.Drawing.Point(50, 106);
+      this.labelJourFerie.Location = new System.Drawing.Point(26, 25);
       this.labelJourFerie.Name = "labelJourFerie";
       this.labelJourFerie.Size = new System.Drawing.Size(61, 13);
       this.labelJourFerie.TabIndex = 1;
@@ -54,7 +54,7 @@
       // comboBoxCountryList
       // 
       this.comboBoxCountryList.FormattingEnabled = true;
-      this.comboBoxCountryList.Location = new System.Drawing.Point(329, 138);
+      this.comboBoxCountryList.Location = new System.Drawing.Point(305, 57);
       this.comboBoxCountryList.Name = "comboBoxCountryList";
       this.comboBoxCountryList.Size = new System.Drawing.Size(121, 21);
       this.comboBoxCountryList.TabIndex = 2;
@@ -62,7 +62,7 @@
       // labelCountry
       // 
       this.labelCountry.AutoSize = true;
-      this.labelCountry.Location = new System.Drawing.Point(273, 141);
+      this.labelCountry.Location = new System.Drawing.Point(249, 60);
       this.labelCountry.Name = "labelCountry";
       this.labelCountry.Size = new System.Drawing.Size(46, 13);
       this.labelCountry.TabIndex = 3;
@@ -72,7 +72,7 @@
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(752, 474);
+      this.ClientSize = new System.Drawing.Size(499, 212);
       this.Controls.Add(this.labelCountry);
       this.Controls.Add(this.comboBoxCountryList);
       this.Controls.Add(this.labelJourFerie);

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<countries>
+  <country codeIso="fr" name="France"/>
+  <country codeIso="us" name="United States of America"/>
+  <country codeIso="sp" name="Spain"/>
+  <country codeIso="it" name="Italy"/>
+  <country codeIso="de" name="Germany"/>
+  <country codeIso="nl" name="Netherlands"/>
+  <country codeIso="uk" name="United Kingdom"/>
+</countries>

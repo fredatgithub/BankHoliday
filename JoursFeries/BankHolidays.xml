@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DaysOff>
+  <country name="France">
+    <staticDay>
+      <dayOff>
+        <day>1</day>
+        <month>1</month>
+      </dayOff>
+      <dayOff>
+        <day>25</day>
+        <month>12</month>
+      </dayOff>
+    </staticDay>
+    <calculatedDay>
+    </calculatedDay>
+  </country>
+  <country name="USA">
+    <staticDay>
+    </staticDay>
+    <calculatedDay>
+    </calculatedDay>
+  </country>
+</DaysOff>

@@ -1,8 +1,0 @@
-c:\users\fred\documents\visual studio 2012\Projects\JoursFeries\JoursFeries\bin\Debug\JoursFeries.exe
-c:\users\fred\documents\visual studio 2012\Projects\JoursFeries\JoursFeries\bin\Debug\JoursFeries.pdb
-c:\users\fred\documents\visual studio 2012\Projects\JoursFeries\JoursFeries\obj\Debug\JoursFeries.csprojResolveAssemblyReference.cache
-c:\users\fred\documents\visual studio 2012\Projects\JoursFeries\JoursFeries\obj\Debug\JoursFeries.Form1.resources
-c:\users\fred\documents\visual studio 2012\Projects\JoursFeries\JoursFeries\obj\Debug\JoursFeries.Properties.Resources.resources
-c:\users\fred\documents\visual studio 2012\Projects\JoursFeries\JoursFeries\obj\Debug\JoursFeries.csproj.GenerateResource.Cache
-c:\users\fred\documents\visual studio 2012\Projects\JoursFeries\JoursFeries\obj\Debug\JoursFeries.exe
-c:\users\fred\documents\visual studio 2012\Projects\JoursFeries\JoursFeries\obj\Debug\JoursFeries.pdb

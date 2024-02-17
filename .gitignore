@@ -172,3 +172,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+/.vs
+/JoursFeries/.vs
+/JoursFeries/obj/Debug/BankHolidays.csproj.FileListAbsolute.txt
